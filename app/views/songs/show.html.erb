@@ -3,6 +3,6 @@
 <p>Artist: <%= @song.artist_name %></p>
 <p>Genre: <%= @song.genre %></p>
 <%= link_to "Edit", edit_song_path(@song) %><br>
-<%= link_to "Delete", @song, method: :delete%>
-<!-- <%= link_to "Delete", @song, method: :delete, data: { confirm: "Really?" } %>
+<!-- <%= link_to "Delete", @song, method: :delete%>
 -->
+<%= link_to "Delete", @song, method: :delete, data: { confirm: "Are you sure?" } %>
