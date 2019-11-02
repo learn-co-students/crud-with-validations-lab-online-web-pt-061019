@@ -1,0 +1,2 @@
+Song.create(title: "Halo", released: true, release_year: 2001, artist_name: "Beyonce", genre: "pop")
+Song.create(title: "Ring", released: true, release_year: 2009, artist_name: "Beyonce", genre: "pop")
